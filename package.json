@@ -1,0 +1,26 @@
+{
+  "name": "nightscout-time-in-range",
+  "version": "1.0.0",
+  "description": "How long has your glucose been in range?",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "format:dry-run": "prettier **/*.js",
+    "format": "prettier --write **/*.js"
+  },
+  "keywords": ["nightscout","in range", "glucose", "blood sugar"],
+  "author": {
+    "name": "Niels Maerten",
+    "url": "https://github.com/nielsmaerten"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2",
+    "sinon": "^7.4.1"
+  }
+}
