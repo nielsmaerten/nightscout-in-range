@@ -1,6 +1,6 @@
 {
-  "name": "nightscout-time-in-range",
-  "version": "1.0.0",
+  "name": "nightscout-in-range",
+  "version": "1.0.0-beta",
   "description": "How long has your glucose been in range?",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,12 @@
     "format:dry-run": "prettier **/*.js",
     "format": "prettier --write **/*.js"
   },
-  "keywords": ["nightscout","in range", "glucose", "blood sugar"],
+  "keywords": [
+    "nightscout",
+    "in range",
+    "glucose",
+    "blood sugar"
+  ],
   "author": {
     "name": "Niels Maerten",
     "url": "https://github.com/nielsmaerten"
