@@ -32,7 +32,7 @@ const getEntry = async (nsUrl, filter, value) => {
 /**
  * Gets a range object indicating time since last hyper, hypo, and total time in range
  * @param {string} nsUrl Full url to a nightscout site
- * @param {number[]} Hyper/Hypo limits. Default: [180, 80]
+ * @param {number[]} limits Hyper/Hypo limits. Default: [180, 80]
  */
 const get = async (nsUrl, limits) => {
   if (!limits) {

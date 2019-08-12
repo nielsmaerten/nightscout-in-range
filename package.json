@@ -1,8 +1,8 @@
 {
   "name": "nightscout-in-range",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta.1",
   "description": "How long has your glucose been in range?",
-  "main": "index.js",
+  "main": "src/in-range.js",
   "scripts": {
     "test": "mocha",
     "format:dry-run": "prettier **/*.js",
