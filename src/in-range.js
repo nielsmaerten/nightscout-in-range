@@ -12,7 +12,7 @@ const filters = {
  * Gets the last Hyper or Hypo recorded in Nightscout
  * @param {string} nsUrl Full url to a nightscout site. eg https://ns.example.com
  * @param {string} filter Use filters.hypo or filters.hyper
- * @param {number} value Limit to use. 
+ * @param {number} value Limit to use.
  * @returns The first entry higher than 'value' for hypos, or lower than 'value' for hypers
  */
 const getEntry = async (nsUrl, filter, value) => {

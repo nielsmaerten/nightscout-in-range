@@ -5,7 +5,9 @@ try {
   testUrl = require("./testUrl");
   if (!testUrl) throw "no url";
 } catch (e) {
-  throw new Error("To test, replace the URL in testUrl.js.example".toUpperCase());
+  throw new Error(
+    "To test, replace the URL in testUrl.js.example".toUpperCase()
+  );
 }
 
 const chai = require("chai");
